@@ -14,44 +14,54 @@
     <div id="navbar">
         <ul>
             <li><a href="index.html">Faqja Kryesore</a></li>
-            <li><a class="active" href="shop.html">Dyqani</a></li>
-            <li><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+            <li><a href="shop.html">Dyqani</a></li>
+            <li><a class="active"  href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
         </ul>
     </div>
 </header>
 
-<section id="prodetails" class="section-p1">
-    <div class="single-pro-image">
-        <img src="Rrobat/Hoodie/Black Hoodie Front.jpeg" width="100%" id="MainImg" alt="">
-        <div class="small-img-group">
-            <div class="small-img-col">
-                <img src="Rrobat/Hoodie/Black Hoodie Back.jpeg" width="100%" class="small-img" alt="">
-            </div>
-            <div class="small-img-col">
-                <img src="Rrobat/Hoodie/White Hoodie Front.jpeg" width="100%" class="small-img" alt="">
-            </div>
-            <div class="small-img-col">
-                <img src="Rrobat/Hoodie/White Hoodie Back.jpeg" width="100%" class="small-img" alt="">
-            </div>
-    </div>
-    
-    </div>
-    <div class="single-pro-details">
-        <h6>Home / Hoodie</h6>
-        <h4>Men's Fashion T Shirt</h4>
-        <h2>ALL3000</h2>
-        <select >
-            <option>Zgjidh Madhesine</option>
-            <option>S</option>
-            <option>L</option>
-            <option>XL</option>
-            <option>XXL</option>
-        </select>
-        <input type="number" value="1">
-        <button class="normal">Shto ne Shporte</button>
-        <h4>Detajet e produktit</h4>
-        <span></span>
-    </div>
+
+
+
+<section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Hiq</td>
+                <td>Foto</td>
+                <td>Produkti</td>
+                <td>Cmimi</td>
+                <td>Sasia</td>
+                <td>Nentotali</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></i><a href="#"><i class="far fa-times-circle"></i></a> </td>
+                <td><img src="Rrobat/Hoodie/Black Hoodie Front.jpeg" alt=""></td>
+                <td>Hoodie</td>
+                <td>ALL3000</td>
+                <td><input type="number" value="1"></td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td></i><a href="#"><i class="far fa-times-circle"></i></a> </td>
+                <td><img src="Rrobat/T/Black Tee Front.jpeg" alt=""></td>
+                <td>Bluze Tee</td>
+                <td>ALL3000</td>
+                <td><input type="number" value="1"></td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td></i><a href="#"><i class="far fa-times-circle"></i></a> </td>
+                <td><img src="Rrobat/Xhup/Black Jacket Front.jpeg" alt=""></td>
+                <td>Xhakete</td>
+                <td>ALL3000</td>
+                <td><input type="number" value="1"></td>
+                <td>3000</td>
+            </tr>
+        </tbody>
+    </table>
 </section>
 
 <footer class="section-p1">
@@ -102,25 +112,6 @@
         <p>© 2024, Kra'Hapun </p>
     </div>
 </footer>
-
-<script>
-    var MainImg = document.getElementById("MainImg");
-    var smallimg = document.getElementsByClassName("small-img");
-
-    smallimg[0].onclick = function(){
-        maingmg.src = smallimg[0].src;
-    }
-    smallimg[1].onclick = function(){
-        maingmg.src = smallimg[1].src;
-    }
-    smallimg[2].onclick = function(){
-        maingmg.src = smallimg[2].src;
-    }
-    smallimg[3].onclick = function(){
-        maingmg.src = smallimg[3].src;
-    }
-</script>
-
 <script src="script.js"></script>
 </body>
 </html>
