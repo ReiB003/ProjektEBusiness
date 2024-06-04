@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="logo/blu.png"><img src="Logo/blu.png" class="logo" alt="Logo"></a>
+    <div id="navbar">
+        <ul>
+            <li><a href="index.html">Faqja Kryesore</a></li>
+            <li><a class="active" href="shop.html">Dyqani</a></li>
+            <li><a href="blog.html">Bluza</a></li>
+            <li><a href="about.html">Hoodie</a></li>
+            <li><a href="contact.html">Xhupa</a></li>
+            <li><a href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+        </ul>
+    </div>
+</header>
+
+<section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+        <img src="Rrobat/Hoodie/Black Hoodie Front.jpeg" width="100%" id="mainimage" alt="">
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="Rrobat/Hoodie/Black Hoodie Back.jpeg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="Rrobat/Hoodie/White Hoodie Front.jpeg" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="Rrobat/Hoodie/White Hoodie Back.jpeg" width="100%" class="small-img" alt="">
+            </div>
+    </div>
+    
+    </div>
+    <div class="single-pro-details">
+        <h6>Home / Hoodie</h6>
+        <h4>Men's Fashion T Shirt</h4>
+        <h2>ALL3000</h2>
+        <select >
+            <option>Zgjidh Madhesine</option>
+            <option>S</option>
+            <option>L</option>
+            <option>XL</option>
+            <option>XXL</option>
+        </select>
+        <input type="number" value="1">
+        <button class="normal">Shto ne Shporte</button>
+        <h4>Detajet e produktit</h4>
+        <span></span>
+    </div>
+</section>
+
+<footer class="section-p1">
+    <div class="col">
+        <img src="Logo/blu.png" class="logo" alt="">
+        <h4>Kontakte</h4>
+        <p><strong>Adresa: </strong>Durres</p>
+        <p><strong>Numri i Telefonit: </strong>0662546666</p>
+        <div class="follow">
+            <h4>Na Ndiqni</h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-tiktok"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h4>Informacion</h4>
+        <a href="">Rreth Nesh</a>
+        <a href="">Informacion rreth dergeses</a>
+        <a href="">Rregullat e privatesise</a>
+        <a href="">Termat dhe Kushtet</a>
+        <a href="">Na Kontaktoni</a>
+    </div>
+
+    <div class="col">
+        <h4>Llogaria Ime</h4>
+        <a href="">Hyr</a>
+        <a href="">Shiko Shporten</a>
+        <a href="">Lista e deshirave</a>
+        <a href="">Ndiq porosine</a>
+        <a href="">Ndihme</a>
+    </div>
+
+    <div class="col install">
+        <h4>Instalo Aplikacionin</h4>
+        <p>Nga App store ose Google Play</p>
+        <div class="row">
+            <img src="Logo/downloadontheappstore.png" class="logo" alt="">
+            <img src="Logo/getitongoogleplay.png" class="logo" alt="">
+        </div>
+        <p>Rruget e sigurta te pageses</p>
+        <img src="Logo/paymentways.jpg" class="logo" alt="">
+    </div>
+    <div class="copyright">
+        <p>© 2024, Kra'Hapun </p>
+    </div>
+</footer>
+
+<script>
+    var MainImg = document.getElementById("mainimage");
+    var smallimg = document.getElementsByClassName("small-img");
+
+    smallimg[0].onclick = function(){
+        maingmg.src = smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+        maingmg.src = smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+        maingmg.src = smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+        maingmg.src = smallimg[3].src;
+    }
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
